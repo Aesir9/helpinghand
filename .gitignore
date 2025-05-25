@@ -1,0 +1,26 @@
+.vscode/
+www/
+output/
+
+
+.venv/
+
+__pycache__
+
+app/custom/shell.ps1
+app/custom/Pillage.ps1
+app/custom/Pillage-Stage2.ps1
+app/dist/Pillage.ps1
+app/dist/Pillage-Stage2.ps1
+app/dist/Pillage.sh
+
+# blacklist oneforall generated beacon should "mostly" by this port
+*_8766.exe
+
+uploads/
+
+helpinghand.db
+sample-data/
+
+
+app/dist/WinPwn.ps1

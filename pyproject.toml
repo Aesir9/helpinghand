@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "helpinghand"
+version = "0.1.0"
+description = ""
+authors = ["Aesir9"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^3.1.0"
+prettytable = "^3.15.1"
+sqlalchemy = "^2.0.38"
+alembic = "^1.14.1"
+click = "^8.1.8"
+python-libnmap = "^0.7.3"
+questionary = "^2.1.0"
+pyperclip = "^1.9.0"
+flask-sqlalchemy = "^3.1.1"
+requests = "^2.32.3"
+flask-migrate = "^4.1.0"
+colorama = "^0.4.6"
+libtmux = "^0.46.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

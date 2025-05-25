@@ -1,0 +1,8 @@
+*.exe filter=lfs diff=lfs merge=lfs -text
+app/dist/mimidrv.sys filter=lfs diff=lfs merge=lfs -text
+app/dist/agent filter=lfs diff=lfs merge=lfs -text
+app/dist/nmap filter=lfs diff=lfs merge=lfs -text
+app/dist/proxy filter=lfs diff=lfs merge=lfs -text
+app/dist/pspy filter=lfs diff=lfs merge=lfs -text
+app/dist/traitor filter=lfs diff=lfs merge=lfs -text
+*.dll filter=lfs diff=lfs merge=lfs -text
